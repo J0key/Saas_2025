@@ -29,6 +29,10 @@ const nextConfig = {
   },
 
   // ...other config
+  images: {
+    domains: ["pixabay.com", "randomwordgenerator.com"], // allow pixabay images
+  },
+
 };
 
 export default nextConfig;
