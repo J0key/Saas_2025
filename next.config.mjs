@@ -30,7 +30,7 @@ const nextConfig = {
 
   // ...other config
   images: {
-    domains: ["pixabay.com", "randomwordgenerator.com"], // allow pixabay images
+    domains: ["pixabay.com", "randomwordgenerator.com" , "remotePatterns", "randomuser.me"], // allow pixabay images
   },
 
 };

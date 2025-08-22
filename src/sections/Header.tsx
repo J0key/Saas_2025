@@ -2,6 +2,7 @@ import ArrowRight from "@/assets/arrow-right.svg";
 import Logo from "@/assets/logosaas.png";
 import Image from "next/image";
 import MenuIcon from "@/assets/menu.svg";
+import Link from "next/link";
 
 export const Header = () => {
   return (
@@ -26,9 +27,11 @@ export const Header = () => {
               <a href="#">Customers</a>
               <a href="#">Updates</a>
               <a href="#">Help</a>
-              <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
-                Get for free
-              </button>
+              <Link href="/login">
+                <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight">
+                  Login
+                </button>
+              </Link>
             </nav>
           </div>
         </div>
